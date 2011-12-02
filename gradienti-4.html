@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+		<meta charset="utf-8"/>
+		<title>Gradienti</title>
+		<style>
+body {
+	padding: 0;
+	margin: 0;
+}
+div {
+  height: 200px;
+  margin: 10px;
+}
+
+#grad1 {
+  background-image: -webkit-linear-gradient(left, blue 100px, red 200px, yellow 300px);
+  background-image: -moz-linear-gradient(left, blue 100px, red 200px, yellow 300px);
+  background-image: -ms-linear-gradient(left, blue 100px, red 200px, yellow 300px);
+  background-image: -o-linear-gradient(left, blue 100px, red 200px, yellow 300px);
+  background-image: linear-gradient(left, blue 100px, red 200px, yellow 300px);
+}
+#grad2 {
+  background-image: -webkit-linear-gradient(left, blue 30%, red 60%, yellow 70%);
+  background-image: -moz-linear-gradient(left, blue 30%, red 60%, yellow 70%);
+  background-image: -ms-linear-gradient(left, blue 30%, red 60%, yellow 70%);
+  background-image: -o-linear-gradient(left, blue 30%, red 60%, yellow 70%);
+  background-image: linear-gradient(left, blue 30%, red 60%, yellow 70%);
+}
+		</style> 
+	</head> 
+	<body>
+		<div id="grad1"></div>
+		<div id="grad2"></div>
+	</body>
+</html>

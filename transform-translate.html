@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>transform: translate( )</title>
+	<style>
+		body {
+		background: #FCFBE3;
+		color:#000;
+		}
+		ul.galleria {
+		margin:100px 0;
+		padding:0;
+		}
+		ul.galleria li{
+		list-style:none;
+		float:left;
+		padding:0px;
+		margin-left:10px;
+		}
+		ul.galleria li a{
+		display:block;
+		}
+		ul.galleria li a img{
+		background: #FFF;
+		display:block;
+		padding:10px;
+		border:1px solid #666666;
+		}
+		ul.galleria li a:hover img{
+		-ms-transform: translate(25px,50px);
+		-moz-transform: translate(25px,50px);
+		-webkit-transform: translate(25px,50px);
+		-o-transform: translate(25px,50px);
+		transform: translate(25px,50px);
+		}
+  </style>
+</head>
+<body>
+  <ul class="galleria">
+    <li><a href="http://www.example.com/1"><img src="sea1.jpg" alt=""></a></li>
+    <li><a href="http://www.example.com/2"><img src="sea2.jpg" alt=""></a></li>
+    <li><a href="http://www.example.com/3"><img src="sea3.jpg" alt=""></a></li>
+  </ul>
+</body>
+</html>
+</html>

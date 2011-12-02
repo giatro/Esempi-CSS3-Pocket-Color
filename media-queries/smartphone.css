@@ -1,0 +1,45 @@
+h1{
+	width:auto;
+}
+h1 img{
+	width: 100%;
+}
+#pie-di-pagina{
+	width:auto;
+	margin: 0 auto;
+}
+#corpo {
+	width:auto;
+	background:transparent;
+}
+#intro,
+#contenuti{
+	float:none;
+	width:auto;
+}
+#menu {
+	float:none;
+	width:auto;
+	background:#e7b9bb;
+	border-bottom:10px solid #FFF;
+}
+
+#colonna-1{
+	float:none;
+	width:auto;
+	background:#d9eca4;
+	border-bottom:10px solid #FFF;
+}
+#colonna-1 .inner{
+	margin:0;
+}
+#colonna-2{
+	float:none;
+	width:auto;
+	margin:0;
+	background:#fff9af;
+	border-bottom:10px solid #FFF;
+}
+#colonna-2 .inner{
+	margin:0;
+}

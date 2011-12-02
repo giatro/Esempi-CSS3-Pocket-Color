@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+		<meta charset="utf-8"/>
+		<title>Proprietà opacity</title>
+		<style> 
+			body {
+				font-family: 'Arial black', arial, helvetica, sans-serif;
+				color: #FFF;
+				background:#000 url(bgr3.png);
+				padding:0 20px;
+				font-size: 40px;
+			}
+			div {
+				padding: 0.1em;
+				overflow: hidden;
+				background: #FFF;
+				color: #000;
+			}
+			div img { 
+				float: left;
+				margin-right:0.2em;
+			}
+			.opa06 {
+				opacity: 0.6;
+			}
+			.opa1 {
+				opacity: 1;
+			}
+		</style> 
+	</head> 
+	<body>
+		<div class="opa1">
+			<img src="globe.png" alt="" /> Opacity: 1<br>
+			<input type="radio">
+			<input type="checkbox">
+			<select><option>---- Select ----</option></select>
+			<button>Button</button>
+		</div>
+		<div class="opa06">
+			<img src="globe.png" alt="" /> Opacity: 0.6<br>
+			<input type="radio">
+			<input type="checkbox">
+			<select><option>---- Select ----</option></select>
+			<button>Button</button>
+		</div>
+	</body>
+</html>

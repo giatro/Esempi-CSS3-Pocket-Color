@@ -1,0 +1,21 @@
+h1{
+	width:auto;
+}
+#pie-di-pagina{
+	width:auto;
+}
+#corpo {
+	width:auto;
+	background: url(sfondo-2-colonne.gif) 50% 0 repeat-y;
+}
+#intro,
+#contenuti{
+	float:none;
+	width:auto;
+}
+#menu {
+	float:none;
+	width:auto;
+	background:#e7b9bb;
+	border-bottom:10px solid #FFF;
+}

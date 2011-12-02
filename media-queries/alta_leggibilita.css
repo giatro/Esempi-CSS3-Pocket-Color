@@ -1,0 +1,68 @@
+body{
+	font-size:170%;
+	padding:2em;
+}
+h1{
+	font-size:100%;
+	width:auto;
+	padding-bottom:1em;
+}
+h2{
+	font-size:130%;
+	padding-bottom:0.77em;
+}
+#pie-di-pagina{
+	width:auto;
+	margin: 0 auto;
+}
+#corpo {
+	width:auto;
+	background:transparent;
+}
+#intro{
+	float:none;
+	width:auto;
+	background: transparent;
+	border-bottom:none;
+	padding:1em 0;
+}
+#contenuti{
+	float:none;
+	width:auto;
+}
+#menu {
+	float:none;
+	width:auto;
+	border-bottom:none;
+	padding:1em 0;
+}
+#menu ul {margin:0 0 0 2em;}
+#menu ul li {
+	list-style: square;
+	display:list-item;
+	padding:0.2em 0;
+}
+#menu ul li a{
+	color:#009;
+	text-decoration:underline;
+	display:inline;
+}
+#colonna-1{
+	float:none;
+	width:auto;
+	border-bottom:none;
+}
+#colonna-1 .inner{
+	margin:0;
+	padding:1em 0 0 0;
+}
+#colonna-2{
+	float:none;
+	width:auto;
+	margin:0;
+	border-bottom:none;
+}
+#colonna-2 .inner{
+	margin:0;
+	padding:1em 0  0;
+}

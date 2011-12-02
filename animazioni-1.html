@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+		<meta charset="utf-8"/>
+		<title>Animazioni</title>
+		<style> 
+@-webkit-keyframes dimensione {
+	0% { height: 200px; width: 200px; }
+	25% { height: 200px; width: 400px; }
+	50% { height: 400px; width: 400px; }
+	100% { height: 200px; width: 200px; }
+}
+@-moz-keyframes dimensione {
+	0% { height: 200px; width: 200px; }
+	25% { height: 200px; width: 400px; }
+	50% { height: 400px; width: 400px; }
+	100% { height: 200px; width: 200px; }
+}
+@-ms-keyframes dimensione {
+	0% { height: 200px; width: 200px; }
+	25% { height: 200px; width: 400px; }
+	50% { height: 400px; width: 400px; }
+	100% { height: 200px; width: 200px; }
+}
+@keyframes dimensione {
+	0% { height: 200px; width: 200px; }
+	25% { height: 200px; width: 400px; }
+	50% { height: 400px; width: 400px; }
+	100% { height: 200px; width: 200px; }
+}
+div{
+	background-color:#FE4365;
+	-webkit-animation-name: dimensione;
+	-webkit-animation-duration : 5s;
+	-webkit-animation-iteration-count : infinite;
+	-webkit-animation-direction : normal;
+	-webkit-animation-delay : 0s;
+	-webkit-animation-timing-function : linear;
+	
+	-moz-animation-name: dimensione;
+	-moz-animation-duration : 5s;
+	-moz-animation-iteration-count : infinite;
+	-moz-animation-direction : normal;
+	-moz-animation-delay : 0s;
+	-moz-animation-timing-function : linear;
+	
+	-ms-animation-name: dimensione;
+	-ms-animation-duration : 5s;
+	-ms-animation-iteration-count : infinite;
+	-ms-animation-direction : normal;
+	-ms-animation-delay : 0s;
+	-ms-animation-timing-function : linear;
+	
+	animation-name: dimensione;
+	animation-duration : 5s;
+	animation-iteration-count : infinite;
+	animation-direction : normal;
+	animation-delay : 0s;
+	animation-timing-function : linear;
+}
+
+		</style> 
+	</head> 
+	<body>
+		<div></div>
+	</body>
+</html>

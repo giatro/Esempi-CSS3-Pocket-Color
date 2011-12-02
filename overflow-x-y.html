@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+		<meta charset="utf-8"/>
+		<title>overflow-x e overflow-y</title>
+		<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Aubrey' rel='stylesheet' type='text/css'>
+		<style>
+body {
+	font-family: Aubrey,'Amatic SC', cursive;
+	font-size: 20px;
+	padding: 20px;
+	margin: 0;
+	background: #F2F2F2;
+	color: #000000;
+}
+div {
+  background: #FFFFFF;
+  width:400px;
+  height:300px;
+  padding:20px;
+  border:1px dashed #000;
+  float:left;
+}
+div:first-child{
+  margin-right:20px;
+}
+#a {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#b {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+		</style> 
+	</head> 
+	<body>
+		<div id="a">
+			<img src="van.jpg" alt="" width="600" height="153">
+			<p>Cantami, o Diva, del Pelìde Achille  l’ira funesta che infiniti addusse lutti agli Achei, molte anzi tempo all’Orco generose travolse alme d’eroi, e di cani e d’augelli orrido pasto lor salme abbandonò (così di Giove l’alto consiglio s’adempìa), da quando primamente disgiunse aspra contesa il re de’ prodi Atride e il divo Achille.</p>
+			<p>E qual de’ numi inimicolli? Il figlio di Latona e di Giove.</p>
+		</div>
+		<div id="b">
+			<img src="van.jpg" alt="" width="600" height="153">
+			<p>Cantami, o Diva, del Pelìde Achille  l’ira funesta che infiniti addusse lutti agli Achei, molte anzi tempo all’Orco generose travolse alme d’eroi, e di cani e d’augelli orrido pasto lor salme abbandonò (così di Giove l’alto consiglio s’adempìa), da quando primamente disgiunse aspra contesa il re de’ prodi Atride e il divo Achille.</p>
+			<p>E qual de’ numi inimicolli? Il figlio di Latona e di Giove.</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trasformazioni multiple</title>
+	<style>
+		body {
+		background: #FCFBE3;
+		color:#000;
+		}
+		ul.galleria {
+		margin:100px 0;
+		padding:0;
+		}
+		ul.galleria li{
+		list-style:none;
+		float:left;
+		padding:0px;
+		margin-left:10px;
+		}
+		ul.galleria li a{
+		display:block;
+		}
+		ul.galleria li a img{
+		background: #FFF;
+		display:block;
+		padding:10px;
+		border:1px solid #666666;
+		}
+		ul.galleria li a:hover img{
+		-ms-transform: scale(1.3) rotate(15deg);;
+		-moz-transform: scale(1.3) rotate(15deg);;
+		-webkit-transform: scale(1.3) rotate(15deg);;
+		-o-transform: scale(1.3) rotate(15deg);;
+		transform: scale(1.3) rotate(15deg);;
+		}
+  </style>
+</head>
+<body>
+  <ul class="galleria">
+    <li><a href="http://www.example.com/1"><img src="sea1.jpg" alt=""></a></li>
+    <li><a href="http://www.example.com/2"><img src="sea2.jpg" alt=""></a></li>
+    <li><a href="http://www.example.com/3"><img src="sea3.jpg" alt=""></a></li>
+  </ul>
+</body>
+</html>
+</html>

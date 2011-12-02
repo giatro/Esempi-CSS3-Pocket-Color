@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<meta charset="utf-8"/> 
+		<title>Proprietà text-shadow</title>
+		<style> 
+			body {
+				font-family: 'arial', helvetica, sans-serif;
+				font-size: 36px;
+				color: #301800;
+				background:#FFF;
+				padding:20px;
+			}
+			.out{ text-shadow: -0.1em 0 1px red,0.1em 0 1px cyan; }	
+			.in{ text-shadow: 0.1em 0 1px red,-0.1em 0 1px cyan; }	
+		</style> 
+	</head> 
+	<body>
+		<div class="in">Cantami, o Diva, del Pelìde Achille l’ira funesta.</div>
+		<div>Cantami, o Diva, del Pelìde Achille l’ira funesta.</div>
+		<div class="out">Cantami, o Diva, del Pelìde Achille l’ira funesta.</div>
+	</body>
+</html>

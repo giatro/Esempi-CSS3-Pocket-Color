@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+		<meta charset="utf-8"/>
+		<title>Animazioni</title>
+		<style> 
+@-webkit-keyframes dimensione {
+	0% { height: 200px; width: 200px; }
+	25% { height: 200px; width: 400px; }
+	50% { height: 400px; width: 400px; }
+	100% { height: 200px; width: 200px; }
+}
+@-webkit-keyframes coloresfondo {
+	from { background-color: #FE4365; }
+	to { background-color: #83AF9B; }
+}
+
+@-moz-keyframes dimensione {
+	0% { height: 200px; width: 200px; }
+	25% { height: 200px; width: 400px; }
+	50% { height: 400px; width: 400px; }
+	100% { height: 200px; width: 200px; }
+}
+@-moz-keyframes coloresfondo {
+	from { background-color: #FE4365; }
+	to { background-color: #83AF9B; }
+}
+
+@-ms-keyframes dimensione {
+	0% { height: 200px; width: 200px; }
+	25% { height: 200px; width: 400px; }
+	50% { height: 400px; width: 400px; }
+	100% { height: 200px; width: 200px; }
+}
+@-ms-keyframes coloresfondo {
+	from { background-color: #FE4365; }
+	to { background-color: #83AF9B; }
+}
+
+@keyframes dimensione {
+	0% { height: 200px; width: 200px; }
+	25% { height: 200px; width: 400px; }
+	50% { height: 400px; width: 400px; }
+	100% { height: 200px; width: 200px; }
+}
+@keyframes coloresfondo {
+	from { background-color: #FE4365; }
+	to { background-color: #83AF9B; }
+}
+div{
+	-webkit-animation: dimensione 5s infinite normal 0s linear, coloresfondo 2.5s infinite alternate 0s linear;
+	-moz-animation: dimensione 5s infinite normal 0s linear, coloresfondo 2.5s infinite alternate 0s linear;
+	-ms-animation: dimensione 5s infinite normal 0s linear, coloresfondo 2.5s infinite alternate 0s linear;
+	animation: dimensione 5s infinite normal 0s linear, coloresfondo 2.5s infinite alternate 0s linear;
+/*
+	-webkit-animation-name: dimensione, coloresfondo;
+	-webkit-animation-duration: 5s, 2.5s;
+	-webkit-animation-iteration-count: infinite, infinite;
+	-webkit-animation-direction: normal, alternate;
+	-webkit-animation-delay: 0s, 0s;
+	-webkit-animation-timing-function: linear, linear;
+	
+	-moz-animation-name: dimensione, coloresfondo;
+	-moz-animation-duration: 5s, 2.5s;
+	-moz-animation-iteration-count: infinite, infinite;
+	-moz-animation-direction: normal, alternate;
+	-moz-animation-delay: 0s, 0s;
+	-moz-animation-timing-function: linear, linear;
+	
+	-ms-animation-name: dimensione, coloresfondo;
+	-ms-animation-duration: 5s, 2.5s;
+	-ms-animation-iteration-count: infinite, infinite;
+	-ms-animation-direction: normal, alternate;
+	-ms-animation-delay: 0s, 0s;
+	-ms-animation-timing-function: linear, linear;
+	
+	animation-name: dimensione, coloresfondo;
+	animation-duration: 5s, 2.5s;
+	animation-iteration-count: infinite, infinite;
+	animation-direction: normal, alternate;
+	animation-delay: 0s, 0s;
+	animation-timing-function: linear, linear;
+*/
+}
+
+		</style> 
+	</head> 
+	<body>
+		<div></div>
+	</body>
+</html>

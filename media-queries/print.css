@@ -1,0 +1,16 @@
+@page:left{
+	margin-left: 4cm;
+	margin-right: 3cm;
+}
+@page:right{
+	margin-right: 3cm;
+	margin-left: 4cm;
+}
+body{
+	font-size:14pt;
+}
+#menu, hr{
+	display:none;
+}
+h2{page-break-before:always;}
+p { page-break-inside : avoid }
